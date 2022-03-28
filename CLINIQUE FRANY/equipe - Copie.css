@@ -1,0 +1,163 @@
+body{
+  background-color: rgb(188, 219, 228);
+  box-sizing: border-box;
+}
+/* entete entete  */
+.entete {
+  background-color: #f1f1f1;
+  text-align: center;
+  height: 100px;
+  border-radius: 20px;
+  width: 100vw;
+  display: flex;
+}
+.entete .log {
+  background-color: #f1f1f1;
+  width: 25%;
+}
+.entete .log1 {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.entete .log1 a {
+  color: rgb(7, 131, 44);
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+}
+.log1 a:hover{
+    background-color: blue;
+    color: #000;
+}
+/* body body  */
+.medecin{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+
+}
+.medec{
+    height: 100%;
+    width: 50%;
+}
+.medec strong{
+    margin-left: 140px;
+    font-size: 30px;
+}
+.medec img{
+    height: 100%;
+    width: 100%;
+}
+#medecin_gen{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.infirmier{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+#infirmiere{
+    margin-top: 60px;
+    text-align: center;
+}
+.infirme{
+    height: 100%;
+    width: 50%;
+}
+.infirme strong{
+    font-size: 20px;
+}
+.infirme img{
+    height: 100%;
+    width: 100%;
+}
+#perso{
+    text-align: center;
+    color:rgb(5 163 44);
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    /* justify-content: baseline; */
+    margin-left: 37.5%;
+}
+#perso:hover{
+    background-color: blue;
+    color: #000;
+    width: 325px;
+
+}
+.personnel{
+    height: 400px;
+    width: 600px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.personnel img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* footer footer */
+.footer img {
+  width: 50px;
+}
+footer {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  color: #f1f1f1;
+  padding-left: 300px;
+  background-color: black;
+  height: 220px;
+}
+h3 {
+  font-size: 30px;
+  color: rgb(5 163 44);
+  background-color: black;
+}
+.foot {
+  display: block;
+  background-color: black;
+  padding: 0 50px 0 0;
+}
+.liste {
+  background-color: #000;
+}
+b {
+  /* background-color: #000; */
+}
+.cool p {
+  background-color: #000;
+  display: inline-block;
+  color: #f1f1f1;
+}
+.cool {
+  background-color: #000;
+}
+.p2 {
+  margin-left: 875px;
+}
+.p1 {
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

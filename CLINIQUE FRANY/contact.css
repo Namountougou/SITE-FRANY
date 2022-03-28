@@ -1,0 +1,144 @@
+body{
+  background-color: rgb(188, 219, 228);
+  box-sizing: border-box;
+}
+/* entete entete  */
+.entete {
+  background-color: #f1f1f1;
+  text-align: center;
+  height: 100px;
+  border-radius: 20px;
+  width: 100vw;
+  display: flex;
+}
+.entete .log {
+  background-color: #f1f1f1;
+  width: 25%;
+}
+.entete .log1 {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.entete .log1 a {
+  color: rgb(7, 131, 44);
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+}
+.log1 a:hover{
+    background-color: blue;
+    color: #000;
+}
+
+.contacter{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+.contacter .textm{
+    display: block;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+}
+.textm {
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+}
+.contact{
+    height: 100%;
+    width: 50%;
+}
+
+.mess{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(5 163 44);
+}
+#mess{
+    color: #89b8d9;
+    font-size: 40px;
+    text-align: center;
+}
+#textm{
+    height: 75px;
+    width: 250px;
+    margin-top: 20px;
+
+}
+.devise{
+    color: #89b8d9;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.doct{
+    height: 300px;
+    width: 500px;
+    margin-left: 420px;
+}
+.doct img{
+    height: 100%;
+    width: 100%;
+}
+.slogan{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(5 163 44);;
+}
+
+
+
+/* footer footer */
+.footer img {
+  width: 50px;
+}
+footer {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  color: #f1f1f1;
+  padding-left: 300px;
+  background-color: black;
+  height: 220px;
+}
+h3 {
+  font-size: 30px;
+  color: rgb(5 163 44);
+  background-color: black;
+}
+.foot {
+  display: block;
+  background-color: black;
+  padding: 0 50px 0 0;
+}
+.liste {
+  background-color: #000;
+}
+
+.cool p {
+  background-color: #000;
+  display: inline-block;
+  color: #f1f1f1;
+}
+.cool {
+  background-color: #000;
+}
+.p2 {
+  margin-left: 875px;
+}
+.p1 {
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
